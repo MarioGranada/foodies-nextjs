@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import classes from './page.module.css';
-import { getMeal } from '@/lib/meals';
+import { getMeal } from '@/src/lib/meals';
 import { notFound } from 'next/navigation';
 
 const MealDetailsPage = async ({ params }) => {

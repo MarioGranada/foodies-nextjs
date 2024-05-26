@@ -2,13 +2,13 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-import burgerImg from '@/assets/burger.jpg';
-import curryImg from '@/assets/curry.jpg';
-import dumplingsImg from '@/assets/dumplings.jpg';
-import macncheeseImg from '@/assets/macncheese.jpg';
-import pizzaImg from '@/assets/pizza.jpg';
-import schnitzelImg from '@/assets/schnitzel.jpg';
-import tomatoSaladImg from '@/assets/tomato-salad.jpg';
+import burgerImg from '@/src/assets/burger.jpg';
+import curryImg from '@/src/assets/curry.jpg';
+import dumplingsImg from '@/src/assets/dumplings.jpg';
+import macncheeseImg from '@/src/assets/macncheese.jpg';
+import pizzaImg from '@/src/assets/pizza.jpg';
+import schnitzelImg from '@/src/assets/schnitzel.jpg';
+import tomatoSaladImg from '@/src/assets/tomato-salad.jpg';
 import classes from './imageSlideshow.module.css';
 
 const images = [

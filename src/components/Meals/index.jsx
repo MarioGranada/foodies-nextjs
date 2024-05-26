@@ -1,4 +1,4 @@
-import { getMeals } from '@/lib/meals';
+import { getMeals } from '@/src/lib/meals';
 import MealsGrid from '@/src/components/MealsGrid';
 
 const Meals = async () => {
