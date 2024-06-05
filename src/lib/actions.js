@@ -11,7 +11,7 @@ import { revalidatePath } from 'next/cache';
 const isInvalidText = (text) => !text || text.trim() === '';
 
 // export const shareMeal = async (prevState, formData) => { // workaround for the use of useFormState in share meal page
-export const shareMeal = async (formData) => {
+export const shareMeal = async (prevState, formData) => {
   // 'use server';
 
   const { title, summary, image, email, name, instructions } =
