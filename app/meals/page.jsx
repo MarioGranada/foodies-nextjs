@@ -4,6 +4,13 @@ import loadingClasses from './loading.module.css';
 import { Suspense } from 'react';
 import Meals from '@/src/components/Meals';
 
+export const metadata = {
+  // this works only for static or not dynamic pages. For Dynamic pages you need async function generateMetadata as made in the [slug] page
+  title: 'All Meals',
+  description:
+    'Browse all our delicious recipes shared by our vibrant community.',
+};
+
 const MealsPage = async () => {
   return (
     <>

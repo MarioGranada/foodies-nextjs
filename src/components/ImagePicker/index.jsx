@@ -25,7 +25,7 @@ const ImagePicker = ({ label, name }) => {
     };
     fileReader.readAsDataURL(file);
 
-    setPickedImage(file);
+    // setPickedImage(file);
   };
 
   return (
