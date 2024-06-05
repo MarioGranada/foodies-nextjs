@@ -31,7 +31,12 @@ const MealDetailsPage = async ({ params }) => {
     <>
       <header className={classes.header}>
         <div className={classes.image}>
-          <Image src={image} alt={title} fill />
+          {/* <Image src={image} alt={title} fill /> */}
+          <Image
+            src={`https://mgranada-nextjs-foodies-demo-app.s3.eu-central-1.amazonaws.com/${image}`}
+            alt={title}
+            fill
+          />
         </div>
         <div className={classes.headerText}>
           <h1>{title}</h1>
